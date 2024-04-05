@@ -14,15 +14,11 @@
 .flex-item{
     flex: 1;
     margin: 16px;
-    height: 40px;
 }
 
 .flex-container.hero{
     background-color: #1F2937;
-}
-
-.flex-item.hero{
-    height: 300px;
+    display: flex;
 }
 
 .flex-item.hero.right{
@@ -72,7 +68,6 @@ button{
 
 .flex-item.info.item{
     flex: 1;
-    height: 160px;
     border: 3px solid #3882F6;
     border-radius: 8px;
 }
@@ -106,7 +101,6 @@ button{
 }
 
 .flex-item.action{
-    height: 160px;
     border-radius: 8px;
     background-color: #3882F6;
     display: flex;
@@ -115,7 +109,6 @@ button{
 .flex-item.action.item{
     margin-left: 24px;
     padding: 24px;
-    height: 120px;
     display: flex;
     flex-direction: column;
 }
