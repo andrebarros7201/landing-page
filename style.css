@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    border: 3px red solid;
+    padding: 16px 300px;
+    align-items: center;
+}
+
+.flex-item{
+    flex: 1;
+    border: 3px blue solid;
+    margin: 16px;
+    height: 40px;
+}
+
+
