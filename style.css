@@ -77,3 +77,27 @@ button{
     height: 160px;
     border-radius: 8px;
 }
+
+.flex-container.quote{
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.flex-item.quote{
+    width: 1000px;
+}
+
+#text{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+#author{
+    margin-top: 0;
+    text-align: right;
+    font-weight: 800;
+}
