@@ -7,14 +7,12 @@
 
 .flex-container{
     display: flex;
-    border: 3px red solid;
     padding: 16px 300px;
     align-items: center;
 }
 
 .flex-item{
     flex: 1;
-    border: 3px blue solid;
     margin: 16px;
     height: 40px;
 }
@@ -75,6 +73,7 @@ button{
 .flex-item.info.item{
     flex: 1;
     height: 160px;
+    border: 3px solid #3882F6;
     border-radius: 8px;
 }
 
@@ -146,9 +145,21 @@ button{
     margin-right: 60px;
 }
 
-footer{
+footer, .header{
     background-color: #1F2937;
     color: white;
     padding-top: 16px;
     padding-bottom: 16px;
+}
+
+.logo{
+    text-align: center;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.link{
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 18px;
 }
