@@ -1,6 +1,8 @@
 *{
     margin: 0;
+    padding: 0;
     font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 .flex-container{
@@ -17,4 +19,43 @@
     height: 40px;
 }
 
+.flex-container.hero{
+    background-color: #1F2937;
+}
 
+.flex-item.hero{
+    height: 300px;
+}
+
+.flex-item.hero.right{
+    background-color: grey;
+    color: white;
+    text-align: center;   
+    vertical-align: middle;
+    line-height: 300px;
+}
+
+.flex-item.hero.left{
+    padding: 16px;
+}
+
+.flex-item.hero.left h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.flex-item.hero.left p{
+    margin-top: 8px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 8px 24px;
+    margin-top: 16px;
+    border-radius: 4px;
+    border: none;
+}
