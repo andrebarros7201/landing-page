@@ -145,3 +145,10 @@ button{
     margin-left: 60px;
     margin-right: 60px;
 }
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
